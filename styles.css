@@ -90,6 +90,54 @@ nav ul li:nth-child(1) {
 /* HOME */
 
 /* edit this to center the contents */
+.chat-container {
+  width: 350px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#chat-box {
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  background: #f9f9f9;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+
+
 main {
   padding: 0 10vw;
   display: flex;
@@ -222,6 +270,7 @@ main hr {
 
 .repository-container p {
   font-size: 12px;
+  color: #cdced5;
 }
 
 /* Repo Head */
@@ -251,6 +300,7 @@ main hr {
 .more-repo {
   margin-top: 10px;
   display: block;
+  color: bisque;
 }
 .more-repo a {
   font-weight: 800;
